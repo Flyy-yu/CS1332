@@ -1,0 +1,12 @@
+CheckStyle 6.18
+CS 1332
+Spring 2016
+Version 1.0
+
+To run CheckStyle on your code in the terminal, use the following command.
+
+    java -jar checkstyle-6.18-all.jar -c CS1332-checkstyle.xml /path/to/javafiles/MyClass.java
+
+    Ex. java -jar checkstyle-6.18-all.jar -c CS1332-checkstyle.xml /Users/fly/Desktop/cs1332/*.java
+
+java -jar checkstyle-6.18-all.jar -c CS1332-checkstyle.xml *.java
